@@ -117,5 +117,6 @@ header { order: -1;
         grid-gap: 3rem;
     }
     .imglogo {width: 240px;
-            height: 40px;}
+            height: 40px;
+        padding: 0px 0px 20px 0px;}
 }
