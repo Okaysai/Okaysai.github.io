@@ -115,6 +115,7 @@ header { order: -1;
 @media only screen and (max-width: 600px) {
     body {
         padding: 4rem;
+         width: 420px;
     }
     .grid {
         grid-gap: 4rem;
