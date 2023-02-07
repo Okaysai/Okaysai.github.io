@@ -35,7 +35,7 @@ header { order: -1;
     display: grid;
     width: 114em;
     grid-gap: 6rem;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     align-items: start;
 }
 
