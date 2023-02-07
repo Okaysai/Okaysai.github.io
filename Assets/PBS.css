@@ -35,7 +35,7 @@ header { order: -1;
     display: grid;
     width: 114em;
     grid-gap: 6rem;
-    grid-template-columns: auto;
+    grid-template-columns: repeat( auto-fit, minmax(30rem, 1fr) );
     align-items: start;
 }
 
@@ -114,10 +114,10 @@ header { order: -1;
 
 @media only screen and (max-width: 600px) {
     body {
-        padding: 2rem;
+        padding: 3rem;
     }
     .grid {
-        grid-gap: 2rem;
+        grid-gap: 3rem;
         grid-template-columns: auto;
     }
 }
