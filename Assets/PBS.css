@@ -116,6 +116,6 @@ header { order: -1;
     .grid {
         grid-gap: 3rem;
     }
-    .imglogo {width: 100%;
-             height: auto; }
+    .imglogo {.imglogo {width: 290px;
+            height: 30px;}
 }
