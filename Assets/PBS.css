@@ -13,19 +13,16 @@ body {
     display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 87vh;
+            min-height: 100vh;
     flex-wrap: wrap;
         flex-direction: row;
     
 }
-        
-header { order: -1;
-    padding: 30px 0px 25px 0px;
-     width: 100%;
+
+.imglogo {
+    width: 100%;
  max-width: 400px;
-  height: auto;
-    
-}
+  height: auto;}
 
 
 
@@ -112,13 +109,11 @@ header { order: -1;
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 60em) {
     body {
-        padding: 4rem;
-         width: 420px;
+        padding: 3rem;
     }
     .grid {
-        grid-gap: 4rem;
+        grid-gap: 3rem;
     }
-    header {padding: 30px 0px 90px 0px}
 }
