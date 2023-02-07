@@ -13,16 +13,19 @@ body {
     display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            min-height: 87vh;
     flex-wrap: wrap;
         flex-direction: row;
     
 }
-
-.imglogo {
-    width: 100%;
+        
+header { order: -1;
+    padding: 30px 0px 25px 0px;
+     width: 100%;
  max-width: 400px;
-  height: auto;}
+  height: auto;
+    
+}
 
 
 
@@ -109,11 +112,14 @@ body {
 
 
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 600px) {
     body {
-        padding: 3rem;
+        padding: 4rem;
+        width: 420px;
     }
     .grid {
-        grid-gap: 3rem;
+        grid-gap: 4rem;
+        grid-template-columns: auto;
     }
+    header {padding: 30px 0px 90px 0px}
 }
